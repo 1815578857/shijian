@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "仅允许本地主窗口与桌面面板使用基础事件和拖动功能；凭据、数据库与目录打开均通过受限 Rust 命令。",
+  "windows": ["main", "panel"],
+  "permissions": ["core:default", "core:window:allow-start-dragging"]
+}

@@ -1,0 +1,23 @@
+# Local credentials and application data
+/账号.txt
+.env
+.env.*
+!.env.example
+*.local
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-wal
+*.db-shm
+shijian-records-*.json
+
+# Dependencies, builds and test output
+node_modules/
+dist/
+target/
+.artifacts/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
